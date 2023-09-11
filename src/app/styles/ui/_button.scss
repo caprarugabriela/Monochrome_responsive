@@ -1,0 +1,37 @@
+.button {
+  display: inline-flex;
+  border: none;
+  background: transparent;
+  font-family: 'Roboto';
+
+  &-primary {
+    text-transform: uppercase;
+    background: $brand-secondary;
+    font-size: 10px;
+    padding: 4px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-out;
+
+    &:hover {
+      background-color: $gray-primary;
+      color: $brand-secondary;
+    }
+  }
+
+  &-secondary {
+    font-size: 12px;
+    border: 1px solid $brand-primary;
+    padding: 10px 18px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-out;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: $brand-secondary;
+    }
+
+    &-lg {
+      font-size: 22px;
+      border: 1px solid $brand-primary;
+      padding: 10px 16px;
+    }
+  }
+}

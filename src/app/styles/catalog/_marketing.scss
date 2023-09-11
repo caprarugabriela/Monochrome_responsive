@@ -1,0 +1,37 @@
+.marketing {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 48px;
+
+  @include media-breakpoint-up('lg') {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 48px;
+  }
+
+  & img {
+    width: 100%;
+  }
+
+  & h1 {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+
+    @include media-breakpoint-up('lg') {
+      font-size: 44px;
+    }
+  }
+
+  & p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 43px;
+    text-align: justify;
+
+    @include media-breakpoint-up('lg') {
+      font-size: 22px;
+    }
+  }
+}

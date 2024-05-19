@@ -8,6 +8,24 @@ export default function Footer() {
               <h1> How can we help?</h1>
             </header>
 
+            <section className="footer-contact my-4 d-none d-lg-block">
+              <ul>
+                <li>
+                  <a href="tel:+4401023456789" title="Call us">
+                    call us <span> +44 (0)10 2345 6789</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:office@monochrome.com"
+                    title="Email customer care"
+                  >
+                    email customer care
+                  </a>
+                </li>
+              </ul>
+            </section>
             <div className="nav mt-4">
               <nav>
                 <ul>
@@ -41,7 +59,7 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a href="/" title="Style  fit advice">
-                      Style and fit
+                      Style & fit
                     </a>
                   </li>
 
@@ -81,27 +99,9 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
-            <section className="footer-contact my-4 d-none d-lg-block">
-              <ul>
-                <li>
-                  <a href="tel:+4401023456789" title="Call us">
-                    Call us <span> +44 (0)10 2345 6789</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="mailto:office@monochrome.com"
-                    title="Email customer care"
-                  >
-                    Email customer care
-                  </a>
-                </li>
-              </ul>
-            </section>
           </div>
         </section>
+
         <section className="footer-connect mb-4">
           <div className="footer-connect-inner">
             <form className="footer-newsletter">
@@ -158,7 +158,7 @@ export default function Footer() {
             </form>
 
             <section className="footer-social">
-              <header className="footer-social-header d-black d-lg-none">
+              <header className="footer-social-header d-block d-lg-none">
                 <h1>We are highly likeable</h1>
               </header>
 

@@ -13,6 +13,11 @@ export default function Home() {
         </header>
 
         <main className="content">
+          <section className="banner-main d-block d-lg-none">
+            <a href="" className="button button-primary">
+              new in
+            </a>
+          </section>
           <CatalogPreview></CatalogPreview>
 
           <CatalogPreview></CatalogPreview>

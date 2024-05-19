@@ -1,0 +1,15 @@
+.content {
+  margin: 0px 0 5px 0;
+}
+
+.banner-main {
+  background: url(/images/banner-mobile.png) no-repeat center center / cover;
+  position: relative;
+  height: 350px;
+
+  .button-primary {
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+  }
+}

@@ -27,12 +27,21 @@
     position: relative;
     justify-items: center;
     align-items: center;
+  }
 
-    i[class*='fa-'] {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 22px;
-    }
+  h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  .product-price {
+    font-size: 22px;
+  }
+
+  .whislist-link {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 22px;
   }
 }

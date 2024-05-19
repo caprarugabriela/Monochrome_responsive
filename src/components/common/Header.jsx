@@ -12,7 +12,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Youtube"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-youtube header-icon"></i>
                 </a>
               </li>
 
@@ -23,7 +23,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Twitter"
                 >
-                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-twitter header-icon"></i>
                 </a>
               </li>
 
@@ -34,7 +34,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Facebook"
                 >
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f header-icon"></i>
                 </a>
               </li>
 
@@ -45,7 +45,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Instagram"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-instagram header-icon"></i>
                 </a>
               </li>
 
@@ -76,7 +76,7 @@ export default function Header() {
                 title="Search"
                 className="header-search-btn"
               >
-                <i className="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass header-icon"></i>
               </button>
             </form>
 
@@ -88,7 +88,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="My account"
                 >
-                  <i class="fa-solid fa-user"></i>
+                  <i class="fa-solid fa-user header-icon"></i>
                 </a>
               </li>
 
@@ -99,7 +99,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Favorites"
                 >
-                  <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart header-icon"></i>
                 </a>
               </li>
 
@@ -110,7 +110,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="My cart"
                 >
-                  <i class="fa-solid fa-bag-shopping"></i>
+                  <i class="fa-solid fa-bag-shopping header-icon"></i>
                 </a>
               </li>
             </ul>
@@ -120,11 +120,11 @@ export default function Header() {
 
       <section className="header-primary">
         <div className="header-primary-inner container">
-          <div className="header-search d-block d-lg-none">
+          <div className="header-search d-block d-lg-none ">
             <ul>
               <li>
                 <button type="button" title="Menu">
-                  <i className="fa-solid fa-bars"></i>
+                  <i className="fa-solid fa-bars header-icon"></i>
                 </button>
               </li>
 
@@ -140,7 +140,7 @@ export default function Header() {
                   />
 
                   <button type="submit" title="Search" className="search">
-                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-magnifying-glass header-icon"></i>
                   </button>
                 </form>
               </li>
@@ -184,12 +184,6 @@ export default function Header() {
             </ul>
           </div>{' '}
         </div>
-      </section>
-
-      <section className="banner-main d-block d-lg-none">
-        <a href="" className="button button-primary">
-          new in
-        </a>
       </section>
     </>
   );

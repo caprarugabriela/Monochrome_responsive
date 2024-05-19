@@ -2,7 +2,7 @@ import ProductTile from './ProductTile';
 
 export default function CatalogPreview() {
   return (
-    <div className="catalog-preview my-5 container">
+    <div className="catalog-preview container">
       <header className="catalog-preview-header">
         <h1>New Stuff</h1>
       </header>
@@ -16,7 +16,7 @@ export default function CatalogPreview() {
         <ProductTile></ProductTile>
       </section>
 
-      <footer className="catalog-preview-ctas mt-5">
+      <footer className="catalog-preview-ctas my-3">
         <a title="View all" className="button button-secondary">
           view all
         </a>

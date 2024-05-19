@@ -5,6 +5,7 @@ export default function Marketing() {
         <img
           src="/images/banners/oliver-pecker.png"
           alt="Monochrome watches for antrepreneurs"
+          className="mt-3"
         ></img>
       </picture>
 

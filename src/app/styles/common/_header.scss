@@ -113,7 +113,7 @@
   }
 }
 
-i[class*='fa-'] {
+.header-icon {
   font-size: 22px;
 }
 
@@ -122,9 +122,10 @@ i[class*='fa-'] {
 
   .header-search {
     ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+      padding: 0 10px;
     }
 
     .search-form {
@@ -138,7 +139,7 @@ i[class*='fa-'] {
         width: 254px;
         background-color: transparent;
         border: 1px solid $gray-tertiary;
-        padding: 0 10px;
+
         color: $brand-secondary;
       }
 
@@ -200,17 +201,5 @@ i[class*='fa-'] {
         color: $gray-tertiary;
       }
     }
-  }
-}
-
-.banner-main {
-  background: url(/images/banner-mobile.png) no-repeat center center / cover;
-  position: relative;
-  height: 350px;
-
-  .button-primary {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
   }
 }
